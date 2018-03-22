@@ -1,0 +1,51 @@
+﻿@using Arquitetura.MongoDB
+@model CaixaAzul
+@{
+    ViewBag.Title = "Entregas";
+}
+<h1>
+    Entregas for @Model.GetFullName()</h1>
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            Entrega
+        </td>
+        <td>
+            Faturado
+        </td>
+    </tr>
+    @foreach (Entrega entregaItem in Model.Entregas)
+    {
+        <tr>
+            <td>
+                @entregaItem.CodigoEntrega
+            </td>
+            <td>
+                @entregaItem.Faturado
+            </td>
+        </tr>
+    }
+</table>
+<h2>
+    New Entrega
+</h2>
+@using (Html.BeginForm())
+{
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                Cód. Entrega
+            </td>
+            <td>
+                <textarea name="codEntrega" cols="10" rows="1"></textarea>
+            </td>
+            <td>
+                Faturado
+            </td>
+            <td>
+                <textarea name="faturado" cols="5" rows="1"></textarea>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Save Entrega" />
+}

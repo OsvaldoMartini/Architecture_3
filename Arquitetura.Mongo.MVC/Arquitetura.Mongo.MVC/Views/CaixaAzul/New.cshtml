@@ -1,0 +1,26 @@
+﻿@model Arquitetura.MongoDB.CaixaAzul
+@{
+    ViewBag.Title = "New CaixaAzul";
+}
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                Numero da Caixa
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.numeroCaixa)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CNPJ
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.cnpjCD)
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Save" />
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.MongoDB", "Arquitetura.MongoDB\Arquitetura.MongoDB.csproj", "{52347D4A-D14B-4EDA-BB70-0450AD0E8CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.Mongo.MVC", "Arquitetura.Mongo.MVC\Arquitetura.Mongo.MVC\Arquitetura.Mongo.MVC.csproj", "{888BE004-083A-410C-9C19-E2741849B1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.MyMocking", "Arquitetura.MyMocking\Arquitetura.MyMocking.csproj", "{888A2C3A-784F-4137-9799-C4D39810E5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.MyMockingTest", "Arquitetura.MyMockingTest\Arquitetura.MyMockingTest.csproj", "{E25415F6-E88C-4B36-99DB-18983F99FBA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52347D4A-D14B-4EDA-BB70-0450AD0E8CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52347D4A-D14B-4EDA-BB70-0450AD0E8CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52347D4A-D14B-4EDA-BB70-0450AD0E8CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52347D4A-D14B-4EDA-BB70-0450AD0E8CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888BE004-083A-410C-9C19-E2741849B1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888BE004-083A-410C-9C19-E2741849B1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888BE004-083A-410C-9C19-E2741849B1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888BE004-083A-410C-9C19-E2741849B1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888A2C3A-784F-4137-9799-C4D39810E5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888A2C3A-784F-4137-9799-C4D39810E5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888A2C3A-784F-4137-9799-C4D39810E5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888A2C3A-784F-4137-9799-C4D39810E5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25415F6-E88C-4B36-99DB-18983F99FBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25415F6-E88C-4B36-99DB-18983F99FBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25415F6-E88C-4B36-99DB-18983F99FBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25415F6-E88C-4B36-99DB-18983F99FBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@model Arquitetura.MongoDB.CaixaAzul
+
+@{
+    ViewBag.Title = "Edit caixaAzul";
+}
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                Numero da Caixa
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.numeroCaixa)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CNPJ CD
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.cnpjCD)
+            </td>
+        </tr>
+       
+    </table>
+    <input type="submit" value="Save" />
+}
