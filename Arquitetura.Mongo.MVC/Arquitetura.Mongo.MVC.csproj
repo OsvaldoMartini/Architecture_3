@@ -322,7 +322,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Arquitetura.MongoDB\Arquitetura.MongoDB.csproj">
+    <ProjectReference Include="..\Arquitetura.MongoDB\Arquitetura.MongoDB.csproj">
       <Project>{52347d4a-d14b-4eda-bb70-0450ad0e8cf0}</Project>
       <Name>Arquitetura.MongoDB</Name>
     </ProjectReference>

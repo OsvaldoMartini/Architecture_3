@@ -1,8 +1,6 @@
 # TDD MongoDB MVC
 
-TDD MongoDB with Mocking Tests
-
-
+MVC with MongoDB with Mocking Tests
 
 Step 1:
 
